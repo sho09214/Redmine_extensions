@@ -7,7 +7,7 @@
   "host_permissions": ["https://redmine.org/issues/*"],
   "content_scripts": [
     {
-      "matches": ["https://redmine.org/issues/*"],
+      "matches": ["https://www.redmine.org/issues/*"],
       "js": ["content.js"],
       "css": ["content.css"]
     }
